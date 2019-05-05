@@ -1,0 +1,250 @@
+@charset "utf-8";
+$box-width:1200px;
+#home-menu{
+    .wrapper{
+        width:$box-width;
+        margin: 0 auto;
+        position: relative;
+        .inner{
+            position: relative;
+            z-index: 3;
+            .h{
+                .snav{
+                    position: relative;
+                    top: -72px;
+                    height: 34px;
+                    .bul{
+                        background: #FFF;
+                        text-align: center;
+                        border-top: 0 none;
+                        width: 1200px;
+                        height: 88px;
+                        border-radius: 10px;
+                        box-shadow: 0 2px 26px rgba(0,0,0,0.07);
+                        position: absolute;
+                        z-index: 2;
+                        li{
+                            float: left;
+                            position: relative;
+                        }
+                        .s1{
+                            width: 270px;
+                            height: 55px;
+                            margin-top: 17px;
+                            border-right: 1px solid #eee;
+                            .log-res{
+                                padding: 0;
+                                padding-left: 26px;
+                                text-align: left;
+                                .w{
+                                    width: 52px;
+                                    height: 52px;
+                                    margin-right: 17px;
+                                    img{
+                                        width: 52px;
+                                        height: 52px;
+                                        border-radius: 50%;
+                                    }
+                                }
+                                .t{
+                                    margin-top: 1px;
+                                    font-size: 14px;
+                                    color: #999;
+                                    a{
+                                        color:#333;
+                                        font-size: 14px;
+                                    }
+                                    span{
+                                        color:#333;
+                                        font-size: 14px;
+                                    }
+                                }
+                                .d{
+                                    margin-top: 6px;
+                                    .new{
+                                        width: 66px;
+                                        height: 20px;
+                                        line-height: 20px;
+                                        background: #fff;
+                                        border: 1px solid #e47b7f;
+                                        color: #de5b60;
+                                        margin-right: 8px;
+                                        display: inline-block;
+                                        border-radius: 5px;
+                                        font-size: 13px;
+                                        text-align: center;
+                                    }
+                                    .vip{
+                                        display: inline-block;
+                                        width: 68px;
+                                        height: 22px;
+                                        text-align: center;
+                                        line-height: 22px;
+                                        background: #595454;
+                                        color: #fde4b3;
+                                        border-radius: 5px;
+                                        font-size: 13px;
+                                    }
+                                }
+                            }
+                        }
+                        .s2{
+                            width: 660px;
+                            margin-top: 17px;
+                            .ul1{
+                                display: table;
+                                width: 100%;
+                                ::before{
+                                    content: " ";
+                                    display: table;
+                                }
+                                li{
+                                    text-align: center;
+                                    display: table-cell;
+                                    float: none;
+                                    width: 104px;
+                                    position: relative;
+                                    a{
+                                        text-align: center;
+                                        display: block;
+                                        width: 100%;
+                                        min-width: 48px;
+                                        max-width: 84px;
+                                        margin: 0 auto;
+                                        .img{
+                                            width: 40px;
+                                            height: 40px;
+                                            margin: 0 auto;
+                                            overflow: hidden;
+                                            position: relative;
+                                            img{
+                                                position: absolute;
+                                                width: auto;
+                                                height: auto;
+                                                transform: scale(0.5,0.5);
+                                                top: -20px;
+                                            }
+                                            .i0{
+                                                left:-150px;
+                                            }
+                                            .i1{
+                                                left:-190px;
+                                            }
+                                            .i2{
+                                                left:-230px;
+                                            }
+                                            .i3{
+                                                left:-270px;
+                                            }
+                                            .i4{
+                                                left:-310px;
+                                            }
+                                            .i5{
+                                                left:-350px;
+                                            }
+                                        }
+                                        .words{
+                                            line-height: 24px;
+                                            width: 100%;
+                                            text-align: center;
+                                            overflow: hidden;
+                                            text-overflow: ellipsis;
+                                            white-space: nowrap;
+                                            color: #777;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        .s3{
+                            width: 266px;
+                            height: 88px;
+                            border-left: 1px solid #eee;
+                            .t{
+                                height: 43px;
+                                border-bottom: 1px solid #eee;
+                                .gg{
+                                    display: block;
+                                    font-size: 14px;
+                                    font-weight: bold;
+                                    margin: 10px 8px 0 17px;
+                                    float: left;
+                                }
+                                .ggnr{
+                                    height: 43px;
+                                    overflow: hidden;
+                                    text-align: left;
+                                    width: 190px;
+                                    line-height: 43px;
+                                }
+                            }
+                            .d{
+                                li{
+                                    height: 42px;
+                                    line-height: 42px;
+                                    width: 88px;
+                                    float: left;
+                                    position: relative;
+                                    a{
+                                        display: block;
+                                        color: #666;
+                                        span{
+                                            margin-right: 2px;
+                                            display: inline-block;
+                                            position: relative;
+                                            width: 20px;
+                                            height: 20px;
+                                            top: 5px;
+                                            overflow: hidden;
+                                            img{
+                                                width: auto;
+                                                height: auto;
+                                                position: absolute;
+                                                transform: scale(0.5,0.5);
+                                                top: -20px;
+                                            }
+                                            .p0{
+                                                left:-390px;
+                                            }
+                                            .p1{
+                                                left:-410px;
+                                            }
+                                            .p2{
+                                                left:-430px;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .pic{
+                    ul{
+                        margin-bottom: 13px;
+                        li{
+                            float: left;
+                            width: 290px;
+                            height: 200px;
+                            border-radius: 20px;
+                            transition: all .2s linear 0s;
+                            margin-left: 13px;
+                            a{
+                                display: block;
+                                height: 200px;
+                                img{
+                                    width: 290px;
+                                    height: 200px;
+                                    border-radius: 10px;
+                                }
+                            }
+                        }
+                        .li1{
+                            margin: 0 1px 0 0;
+                        }
+                    }
+                }
+            }  
+        }
+    }
+}

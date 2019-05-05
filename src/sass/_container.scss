@@ -1,0 +1,145 @@
+@charset "utf-8";
+$box-width:1200px;
+
+#container{
+    width:100%;
+    min-width:$box-width;
+    overflow: hidden;
+    position: relative;
+    .wrapper{
+        width:$box-width;
+        margin: 0 auto;
+        ::before{
+            content: "";
+            display: table;
+        }
+        .phone{
+            :after{
+                content: "";
+                display: table;
+                clear: both;
+            }
+            .title{
+                margin: 27px 0 12px;
+                line-height: 32px;
+                position: relative;
+                overflow: hidden;
+                .t-words{
+                    font-size: 26px;
+                    color: #333;
+                    font-weight: normal;
+                }
+                .t-nav{
+                    margin-left: 28px;
+                    max-width: 950px;
+                    height: 32px;
+                    overflow: hidden;
+                    li{
+                        float: left;
+                        font-size: 12px;
+                        a{
+                            font-size: 14px;
+                            color: #999;
+                            margin-left: 0;
+                            margin-right: 24px;
+                            line-height: 32px;
+                            display: inline-block;
+                            margin: 0 10px;
+                            position: relative;
+                        }
+                    }
+                }
+                .t-more{
+                    height: 32px;
+                    text-align: center;
+                    font-size: 14px;
+                    color: #333;
+                    padding-right: 10px;
+                    padding-left: 14px;
+                }
+            }
+            .pic-list{
+                height: auto;
+                ul{
+                    margin: 0 0 0 -10px;
+                    .good-items{
+                        height: 290px;
+                        width:230px;
+                        border-radius: 10px;
+                        margin-left: 12px;
+                        margin-bottom: 12px;
+                        margin-top: 0;
+                        float: left;
+                        position: relative;
+                        transition: all .2s linear 0s;
+                        background: #f9f9f9;
+                        a{
+                            display: inline-block;
+                            height: 100%;
+                            width: 100%;
+                            text-align: center;
+                            img{
+                                width: 230px;
+                                height: 290px;
+                                border-radius: 10px;
+                            }
+                            .good-pic{
+                                p{
+                                    width: 150px;
+                                    height: 150px;
+                                    margin: 35px auto 0;
+                                    img{
+                                        width: 150px;
+                                        height: 150px;
+                                    }
+                                }
+                            }
+                            .good-title{
+                                width: 210px;
+                                display: block;
+                                margin: 0 auto;
+                                padding: 0;
+                                margin-top: 12px;
+                                height: 21px;
+                                line-height: 21px;
+                                overflow: hidden;
+                                text-overflow: ellipsis;
+                                white-space: nowrap;
+                                font-size: 14px;
+                                font-weight: 400;
+                                color: #3a3a3a;
+                            }
+                            .good-des{
+                                color: #777;
+                                line-height: 18px;
+                                padding: 0 10px;
+                                margin: 2px 20px 7px;
+                                font-size: 12px;
+                                font-weight: 400;
+                                overflow: hidden;
+                                text-overflow: ellipsis;
+                                white-space: nowrap;
+                            }
+                            .good-price{
+                                color: #d0021b;
+                                line-height: 21px;
+                                margin-bottom: 0;
+                                font-size: 14px;
+                                font-weight: 400;
+                                margin: 0 20px 20px;
+                                overflow: hidden;
+                                text-overflow: ellipsis;
+                                white-space: nowrap;
+                            }
+                        }
+                    }
+                    .md{
+                        background: #fff;
+                    }
+                }
+            }
+        }
+    }
+  
+}
+

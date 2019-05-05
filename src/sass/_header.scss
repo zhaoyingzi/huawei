@@ -1,0 +1,99 @@
+@charset "utf-8";
+$box-width:1200px;
+$box-height:41px;
+$box-padding:15px;
+#header{
+    padding-top: $box-padding+3;
+    padding-bottom: $box-padding;
+    .wrapper{
+        width:$box-width;
+        margin: 0 auto;
+        height:$box-height;
+        .logo {
+            float: left;
+            margin-right: 34px;
+            img{
+                height:$box-height - 5;
+            }
+        }
+        .naver{
+            float: left;
+            max-width: 585px;
+            height: $box-height - 1;
+            overflow: hidden;
+            li{
+                float: left;
+                margin-right: 24px;
+            }
+            .img{
+                margin-top: 7px;
+            }
+            a{
+                font-size: 16px;
+                color: #333;
+                position: relative;
+                line-height:$box-height - 1;
+                display: block;
+                img{
+                    display: block;
+                    height: $box-height - 17;
+                }
+            }
+        }
+        .relative {
+            position: relative;
+        }
+        .search-bar {
+            margin-top: 5px;
+            background: #fff;
+            border-radius: 16px 16px 0 0;
+            .search-bar-form {
+                line-height: 1;
+                width: 320px;
+                height: 30px;
+                background: #f0f0f0;
+                border-radius: 15px;
+                position: relative;
+                z-index: 310;
+                .text {
+                    border: 0;
+                    color: #3a3a3a;
+                    width: 285px;
+                    text-indent: 15px;
+                    height: 30px;
+                    line-height: 30px;
+                    background: transparent;
+                    float: left;
+                }
+                .button {
+                    width: 35px;
+                    height: 30px;
+                    cursor: pointer;
+                    border: 0;
+                    overflow: hidden;
+                    position: absolute;
+                    background: transparent;
+                    padding-right: 10px;
+                    right: 0;
+                    top: 0;
+                    color: #353535;
+                    font-size: 20px;
+                }
+            }
+            .search-bar-key {
+                position: absolute;
+                max-width: 260px;
+                right: 31px;
+                bottom: 6px;
+                z-index: 311;
+                white-space: nowrap;
+                overflow: hidden;
+                a{
+                    font-size: 12px;
+                    margin-right: 14px;
+                    color: #CF0A2C;
+                }
+            }
+        }  
+    }
+}

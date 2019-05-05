@@ -1,0 +1,75 @@
+@charset "utf-8";
+$box-width:1200px;
+$box-height:39px;
+$box-padding:22px;
+$box-fl:left;
+$box-fr:right;
+$box-margin:3px;
+//底部
+#bottom-footer{
+    .wrapper{
+        width:$box-width;
+        height: $box-height;
+        padding-top: $box-padding;
+        padding-bottom: $box-padding;
+        margin: 0 auto;
+        .inner{
+            text-align: left;
+            color: #a4a4a4;
+            line-height: 20px;
+            .logo{
+                width:$box-width - 1118;
+                height:$box-height - 19;
+                padding-top: $box-padding - 19;
+                padding-right: $box-padding - 2;
+                float: $box-fl;
+                a{
+                    display: block;
+                    img{
+                        vertical-align: top;
+                        width: $box-width - 1118;
+                        height: $box-height - 19;
+                    }
+                }
+            }
+            .words{
+                float: $box-fl;
+                ul{
+                    margin-top: $box-margin;
+                    margin-bottom: $box-margin+1;
+                    height:$box-height - 27;
+                    li{
+                        float: $box-fl;
+                        line-height: 1;
+                        padding-right:$box-padding - 6;
+                        border-right: 1px solid #d3d3d3;
+                        margin-right: $box-margin+3;
+                        height:$box-height - 27;
+                        a{
+                            color:#777
+                        }                        
+                    }
+                }
+                a{
+                    color:#a4a4a4;
+                }
+            }
+            .imgs{
+                margin-top: $box-margin - 1;
+                float: $box-fr;
+                a{
+                    display: block;
+                    width: $box-width - 1130;
+                    margin-left: $box-margin + 14;
+                    height: $box-height - 15; 
+                    float: $box-fl;
+                    img{
+                        vertical-align: top;
+                        width: $box-width - 1130;
+                        height: $box-height - 15;
+                    }
+                }
+            }
+        }
+    }
+}

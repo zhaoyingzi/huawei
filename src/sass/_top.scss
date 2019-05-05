@@ -1,0 +1,99 @@
+@charset "utf-8";
+$box-width:1200px;
+$box-height:36px;
+//顶部的可关闭的广告
+.top-banner-pic{
+    margin: 0 auto;
+    position: relative;
+    height:$box-height+54;
+}   
+.top-pic-a{
+    display: block;
+    position: relative;
+    text-align: center;
+    width:1520px;
+    img{
+        vertical-align: top;
+        width: 1520px;
+    }
+}
+// 顶部的可关闭的广告 上面的关闭按钮
+.top-banner-close{
+    text-indent: 100%;
+    white-space: nowrap;
+    position: absolute;
+    background: url(../img/icon01.svg) no-repeat;
+    background-position: -323px -84px;
+    right: 200px;
+    top: 10px;
+    width: 24px;
+    height: 24px;
+    color: #FFF;
+    overflow: hidden;   
+}
+//顶部广告图下面的捷径栏 
+#top-shortcut{
+     background-color: #f9f9f9;
+    li{
+        float: left;
+        padding: 0 8px;
+        position: relative;
+        }
+    a{
+        color:#a4a4a4;
+        ::before{
+            font-family: "iconfont"!important;
+            font-style: normal;
+            -webkit-font-smoothing: antialiased;
+            -webkit-text-stroke-width: .2px;
+            -moz-osx-font-smoothing: grayscale;
+            content: "\e60b";
+            font-size: 14px;
+            display: block;
+            position: absolute;
+            top: 0;
+            right: -5px;
+            line-height: 14px;
+            color: #c9c9c9;
+        }
+    }
+    .s-dropdown {
+        position: relative;
+        z-index: 310;
+        margin: 0 -9px;
+        height: 36px;
+        .h {
+            position: relative;
+            padding: 0 12px 0 10px;
+            height: 36px;
+        }
+        .icon-dropdown {
+            position: relative;
+            padding-right: 10px;
+        }
+    }    
+    .wrapper{
+    width:$box-width;
+    margin: 0 auto;
+    height:$box-height;
+    line-height: $box-height;
+    .w-left{
+        float: left;
+            ::before{
+                content: "";
+                width: 1px;
+                height: 10px;
+                display: block;
+                position: absolute;
+                top: 13px;
+                left: 0;
+                background: #d3d3d3;
+            }     
+    }
+    .w-right{
+        float: right;
+    }
+}
+}
+
+

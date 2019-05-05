@@ -1,0 +1,17 @@
+@charset "utf-8";
+$box-width:1200px;
+$box-height:200px;
+#bottom{
+    .wrapper{
+        width:$box-width;
+        height:$box-height;
+        margin: 0 auto;
+        img{
+            border-radius: 10px;
+            vertical-align: top;
+        }
+    }
+    .hr-60{
+        height:$box-height - 140;
+    }
+}
