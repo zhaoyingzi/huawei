@@ -1,0 +1,249 @@
+/* 头部 */
+.header-box .header{
+    width: auto;
+    max-width: 998px;
+    height: 67px;
+    margin: 0 auto;
+    border: 0;
+    position: relative;
+}
+.header-box .header .logo{
+    margin-right: 20px;
+    left: 2px;
+    float: left;
+    position: static;
+}
+.header-box .header .logo img{
+    margin-left: 4px;
+    margin-top: 17px;
+}
+.header-box .header .words{
+    font-size: 20px;
+    line-height: 50px;
+    font-family: "arial";
+    padding-top: 14px;
+}
+.header-box .header .words b:nth-child(1){
+    font-size: 18px;
+    margin-top: -5px;
+    float: left;
+    color: #cccccc;
+}
+.header-box .header .words b:nth-child(2){
+    color: #333;
+    font-size: 18px;
+    margin-top: -3px;
+    float: left;
+    margin-left: 20px;
+}
+/* 广告位 */
+.gg{
+    background: #FFFBE4;
+    display: block;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    color: #989898;
+}
+/* 登陆 */
+.log-box{
+    background-color: #081638;  
+}
+.log-bg{
+    width: 1130px;
+    margin: 0 auto;
+    zoom: 1;
+    position: relative;
+    background-image: url('https://hwid1.vmall.com/CAS/up/idmw_rss_31/ads/login_default_bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 590px;
+}
+.log{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 530px;
+    position: relative;
+    width: 380px;
+    float: right;
+    background-color: #fff;
+}
+.log-h{
+    width: 100%;
+    margin: 24px auto;
+    text-align: center;
+}
+.log-h span{
+    font-size: 20px;
+    color: #b40707;
+    font-weight: 500;
+    cursor: pointer;
+    width: 169px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.log-main{
+    width: 328px;
+    margin: 0 auto;
+}
+.kong{
+    font-size: 12px;
+    color: #ff3320;
+    line-height: 1.3;
+    min-height: 15px;
+}
+.log-t table{
+    width: 328px;
+    border: 0;
+}
+.log-t table td{
+    border-bottom: 1px solid #ccc;
+    height: 46px;
+    word-wrap: break-word;
+    word-break: normal;
+}
+
+.log-t table td input{
+    z-index: 1;
+    width: 100%;
+    border: 0;
+    color: #333;
+    font-size: 14px;
+    height: 46px;
+    line-height: 46px;
+    border-radius: 0;
+    vertical-align: middle;
+}
+.log-t table tr .mass{
+    padding: 16px 0;
+    text-align: center;
+    border: 0;
+}
+.log-t table tr .mass span{
+    color: #007dff;
+    cursor: pointer;
+    float: left;
+}
+.log-t table tr .dl{
+    border: 0;
+}
+.log-t table tr .dl input{
+    background-color: #b40707;
+    border-width: 0 0 2px 0;
+    border-style: solid;
+    border-color: #b40707;
+    color: #fff;
+    width: 100%;
+    border-radius: 0;
+    line-height: 44px;
+    height: 44px;
+    font-weight: bold;
+    font-size: 14px;
+    background-image: none;
+    cursor: pointer;
+    border-radius: 26px;
+    text-align: center;
+    margin-top: 0;
+}
+.log-t table tr .zc{
+    border: 0;
+    text-align: center;
+}
+.log-t table tr .zc a{
+    color: #007dff;
+}
+/* 其他方式登陆 */
+.qq{
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    color: #999;
+    line-height: 16px;
+}
+.qq-title{
+    position: relative;
+    width: 328px;
+    margin-bottom: 10px;
+}
+.qq-title .l{
+    background-image: url(../img/thirdLine.png);
+    background-repeat: no-repeat;
+    height: 1px;
+    position: absolute;
+    width: 94px;
+    background-size: cover;
+    left: 0;
+    top: 50%;
+}
+.qq-title span{
+    color: #ccc;
+    vertical-align: middle;
+    text-align: center;
+    max-width: 190px;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    background: #fff;
+    padding: 0 10px;
+    line-height: 1.5;
+}
+.qq-title .r{
+    background-image: url(../img/thirdLine-reverse.png);
+    background-repeat: no-repeat;
+    height: 1px;
+    position: absolute;
+    width: 94px;
+    background-size: cover;
+    right: 0;
+    bottom: 50%;
+}
+.qq-logo{
+    width: 328px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.qq-logo span{
+    padding: 0 10px;
+    text-align: center;
+    display: inline-block;
+}
+.qq-logo span a{
+    background-image: url(../img/third_login.png);
+    background-repeat: no-repeat;
+    width: 42px;
+    height: 42px;
+    padding: 0;
+    display: inline-block;
+    margin: 0;
+    float: none;
+    background-position: -72px -9px;
+}
+/* 底部  */
+.main .wrapper .footer{
+    width: 100%;
+    margin: 0 auto;
+    background: #f2f2f2;
+    text-align: center;
+    font-size: 12px;
+    color: #999;
+}
+.footer .inner{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    width: 960px;
+    margin:0 auto;
+    margin-top: 30px;
+}
+.footer .inner p{
+    line-height: 24px;
+    margin: 0 auto;
+    color: #999;
+}
+.footer .inner .s a{
+    font-size: 12px;
+    color: #999;
+    padding: 0 10px;
+}

@@ -1,0 +1,149 @@
+
+.cart-box{
+    width: 1200px;
+    margin: 0 auto;
+}
+.cart-box .cart-list .cart-title{
+    background: #fff;
+    line-height: 40px;
+    padding-left: 40px;
+    color: #a4a4a4;
+}
+.cart-box .cart-list .cart-title::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.cart-box .cart-list .cart-title lable{
+    float: left;
+    width: 150px;
+}
+.cart-box .cart-list .cart-title ul{
+    float: left;
+}
+.cart-box .cart-list .cart-title ul li{
+    float: left;
+    width: 100px;
+    margin-left: 30px;
+    min-height: 14px;
+    text-align: center;
+}
+.cart-box .cart-list .cart-title ul li:nth-child(1){
+    width: 450px;
+    text-align: left;
+    margin-left: 0;
+}
+
+.cart-goods{
+    background: #fff;
+    padding-left: 40px;
+    margin-top: 10px;
+    padding-top: 20px;
+}
+.cart-goods::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.cart-goods lable{
+    float: left;
+    margin: 43px 3px 0 0;
+}
+.cart-goods .goods-main{
+    float: left;
+    width: 1130px;
+    font-size: 14px;
+}
+.cart-goods .goods-main .goods-des{
+    margin-bottom: 18px;
+    position: relative;
+}
+.cart-goods .goods-main .goods-des .img{
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-right: 20px;
+    position: relative;
+}
+.cart-goods .goods-main .goods-des .img img{
+    width: 100%
+}
+.cart-goods .goods-main .goods-des ul{
+    float: left;
+}
+.cart-goods .goods-main .goods-des ul li{
+    float: left;
+    width: 100px;
+    margin-left: 30px;
+    min-height: 14px;
+    text-align: center;
+}
+.cart-goods .goods-main .goods-des ul li:nth-child(1){
+    width: 450px;
+    text-align: left;
+    margin-left: 0;
+}
+.cart-goods .goods-main .goods-des ul li:nth-child(2){
+    width: 140px;
+    margin-left: 10px;
+    margin-right: -20px;
+}
+.cart-goods .goods-main .goods-des ul li:nth-child(4){
+    color: #ca141d;
+    font-weight: 700;
+}
+/* 结算 */
+.sove-box{
+    background: #fff;
+    height: 60px;
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.sove-box::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.sove-box .sove{
+    float: left;
+    line-height: 60px;
+}
+.sove-box .sove label{
+    float: left;
+    margin-left: 40px;
+}
+.sove-box .sove a{
+    float: left;
+    margin-left: 20px;
+}
+.sove-box .btn{
+    float: right;
+}
+.sove-box .btn a{
+    width: 180px;
+    height: 60px;
+    line-height: 60px;
+    display: block;
+    background: #ca151e;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+}
+.sove-box .price{
+    float: right;
+    padding-right: 30px;
+    text-align: right;
+    height: 60px;
+    line-height: 60px;
+}
+.sove-box .price p{
+    font-size: 14px;
+    position: relative;
+}
+.sove-box .price p span{
+    color: #ca151e;
+    font-size: 18px;
+    font-weight: 700;
+}
+

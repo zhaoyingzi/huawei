@@ -1,56 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ */
-/* v1.0 | 20080212 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, font, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	outline: 0;
-	font-size: 100%;
-	vertical-align: baseline;
-	background: transparent;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-
-/* remember to define focus styles! */
-:focus {
-	outline: 0;
-}
-
-/* remember to highlight inserts somehow! */
-ins {
-	text-decoration: none;
-}
-del {
-	text-decoration: line-through;
-}
-
-/* tables still need 'cellspacing="0"' in the markup */
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
 body, button, input, select, textarea {
     font: 12px/1.5 Arial,Helvetica,sans-serif;
 }
@@ -66,4 +14,41 @@ a{
 b,em,strong{
 	font-style: normal;
 	font-weight: normal;
+}
+html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, 
+pre, code, form, fieldset, legend, input, textarea, p, blockquote, 
+th, td, hr, button, article, aside, details, figcaption, figure, footer, 
+header, hgroup, menu, nav, section{margin:0;padding: 0}
+a{
+    cursor: pointer;
+    text-decoration: none;
+    color: #3a3a3a;
+}
+body, button, input, select, textarea {
+    font: 12px/1.5 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+}
+ol, ul {
+    list-style: none;
+}
+.hr-1, .hr-2, .hr-3, .hr-4, .hr-5, .hr-7, .hr-9, .hr-10, 
+.hr-15, .hr-18, .hr-20, .hr-22, .hr-25, .hr-30, .hr-32.hr-35, .hr-40, 
+.hr-45, .hr-50, .hr-55, .hr-60, .hr-65, .hr-70, .hr-75, .hr-80, .hr-85, .hr-90 {
+    clear: both;
+    font-size: 1px;
+    line-height: 1px;
+}
+.fl, .left, .left-area {
+    float: left;
+}
+.fr, .right, .right-area {
+    float: right;
+}
+fieldset, img, a img {
+    border: 0 none;
+}
+.relative{
+    position: relative;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: normal;
 }

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>注册_华为帐号</title>
     <link rel="stylesheet" href="css/registor.css">
     <link rel="stylesheet" href="css/reset.css">
 </head>
@@ -29,55 +29,98 @@
             <!-- 邮箱注册或者手机号注册 -->
             <div class="tab">
                 <a class="tel">
-                    <i></i>
+                    <!-- <i></i> -->
                     <span>用户名</span>
                 </a>
                 <a>
-                    <i></i>
+                    <!-- <i></i> -->
                     <span>电子邮箱</span>
                 </a>
             </div>
             <!-- 已有账号，登陆 -->
             <div class="log">
                 已有华为帐号
-                <a href="#">登陆</a>
+                <a href="http://10.31.163.28/erjieduan/projectname/huawei/src/login.html">登陆</a>
                 <span>&gt;</span>
             </div>
-            <!-- 注册表单 -->
-            <div class="log-details">
+            <!-- 注册表单  用户名-->
+            <div class="log-details show">
                 <!-- 用户名 -->
-                <div class="input">
-                    <div class="user">用户名</div>
-                    <div class="input-user">
-                        <input type="text" placeholder="请输入用户名">
+                <form action="http://10.31.163.28/erjieduan/projectname/huawei/php/registor.php" method="POST" id="form1">
+                    <div class="input">
+                        <div class="user">用户名</div>
+                        <div class="input-user">
+                            <input type="text" placeholder="请输入用户名" name="username" id="username">
+                        </div>
+                        <lable>(必填，3-15字符长度，支持汉字、字母、数字及_)</lable>
                     </div>
-                </div>
-                <!-- 出生年月日 -->
+                <!-- 手机-->
                 <div class="input t">
-                    <div class="user">出生日期</div>
+                    <div class="user">手机</div>
                     <div class="input-user">
-                        <input type="text" placeholder="请输入出生年月日">
+                        <input type="text" placeholder="请输入手机号码" name="tel">
                     </div>
+                    <lable>(请输入11位手机号码)</lable>
                 </div>
                 <!-- 密码 -->
                 <div class="input t">
                     <div class="user">密码</div>
                     <div class="input-user">
-                        <input type="password" placeholder="请输入密码">
+                        <input type="password" placeholder="请输入密码" name="password" id="password">
                     </div>
+                    <lable>(必填，不得少于6位)</lable>
                 </div>
                 <!-- 密码确认 -->
                 <div class="input t">
                     <div class="user">确认密码</div>
                     <div class="input-user">
-                        <input type="password" placeholder="请再次输入密码">
+                        <input type="password" placeholder="请再次输入密码" id="">
                     </div>
+                    <lable></lable>
                 </div>
                 <!-- 注册按钮 -->
                 <div class="btn">
-                    <input type="button" value="注册">
+                    <input type="submit" value="注册" name="submit">
                 </div>
+                </form>
             </div>
+                
+
+            <!-- 注册表单邮箱 -->
+            <div class="log-details">
+                    <!-- 电子邮箱 -->
+                    <div class="input">
+                        <div class="user">电子邮箱</div>
+                        <div class="input-user">
+                            <input type="text" placeholder="请输入电子邮箱">
+                        </div>
+                    </div>
+                    <!-- 出生年月日 -->
+                    <div class="input t">
+                        <div class="user">手机</div>
+                        <div class="input-user">
+                            <input type="text" placeholder="请输入手机号码">
+                        </div>
+                    </div>
+                    <!-- 密码 -->
+                    <div class="input t">
+                        <div class="user">密码</div>
+                        <div class="input-user">
+                            <input type="password" placeholder="请输入密码">
+                        </div>
+                    </div>
+                    <!-- 密码确认 -->
+                    <div class="input t">
+                        <div class="user">确认密码</div>
+                        <div class="input-user">
+                            <input type="password" placeholder="请再次输入密码">
+                        </div>
+                    </div>
+                    <!-- 注册按钮 -->
+                    <div class="btn">
+                        <input type="button" value="注册">
+                    </div>
+                </div>
             <!-- 空 -->
             <div class="shadow"></div>
             <!-- 底部 -->
@@ -97,6 +140,11 @@
             </div>
         </div>
     </div>
+    <script src="script/js/jquery.js"></script>
+    <script src="script/js/registor.js"></script>
+    <script src="script/js/ajax.js"></script>
+    <script src="script/js/jquery.validate.js"></script>
+    
 </body>
 
 </html>

@@ -1,12 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>登录</title>
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/reset.css">
 </head>
+
 <body>
-    
+    <!-- 头部 -->
+    <div class="header-box">
+        <div class="header">
+            <div class="logo">
+                <img src="https://hwid1.vmall.com/CAS/up/idmw_rss_31/logos/HUAWEI.png">
+            </div>
+            <div class="words">
+                <b>|</b>
+                <b>华为商城</b>
+            </div>
+        </div>
+    </div>
+    <!-- 广告位 -->
+    <div class="gg">
+        <span>依据《网络安全法》，为保障您的帐号安全与正常使用，请尽快绑定您的手机号，感谢您的理解及支持！</span>
+    </div>
+    <!-- 登陆 -->
+    <div class="log-box">
+        <div class="log-bg">
+            <div class="log">
+                <div class="user-log">
+                    <div class="log-h">
+                        <span>登陆</span>
+                    </div>
+                    <div class="log-main">
+                        <div class="log-t">
+                            <div class="kong"></div>
+                            <form action="" method="POST">
+                                <table cellpadding="0" cellspacing="0">
+                                <tr>
+                                    <td>
+                                        <input placeholder="用户名/邮箱" type="text" name="username" class="username">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input placeholder="密码" type="password" name="password" class="password">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="mass">
+                                        <span>短信验证码登陆</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="dl">
+                                        <input type="button" value="登陆" name="submit" class="login">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="zc">
+                                        <a href="http://10.31.163.28/erjieduan/projectname/huawei/src/registor.html">注册账号</a>
+                                    </td>
+                                </tr>
+                            </table>
+                            </form>
+                            
+                        </div>
+                        <!-- 其他方式登陆 -->
+                        <div class="qq">
+                            <div class="qq-title">
+                                <i class="l"></i>
+                                <span>其他方式登陆</span>
+                                <i class="r"></i>
+                            </div>
+                            <div class="qq-logo">
+                                <span><a></a></span>
+                                <span><a></a></span>
+                                <span><a></a></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+     <!-- 底部 -->
+     <div class="footer">
+            <div class="inner">
+                <p class="s">
+                    <a href="#">华为帐号用户协议</a>
+                    <em>|</em>
+                    <a href="#">关于华为帐号与隐私的声明</a>
+                    <em>|</em>
+                    <a href="#">常见问题</a>
+                </p>
+                <p>
+                    Copyright © 2011-2019 华为软件技术有限公司 版权所有 保留一切权利 苏B2-20070200号 | 苏ICP备09062682号-9
+                </p>
+            </div>
+        </div>
+        <script src="script/js/ajax.js"></script>
 </body>
+
 </html>

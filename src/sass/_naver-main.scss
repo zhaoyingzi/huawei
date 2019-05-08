@@ -42,6 +42,59 @@
                     }
                 }
             }
+            .erji-box{
+                width: 420px;
+                position: absolute;
+                left: 198px;
+                height: 416px;
+                max-width: 1020px;
+                background: #FFF;
+                padding: 24px 22px 0 28px;
+                border-radius: 0 10px 10px 0;
+                box-shadow: 0 0 46px rgba(0,0,0,0.1);
+                top: 0;
+                z-index: 1;
+                overflow: hidden;
+                display: none;
+                ::after{
+                    content: "";
+                    display: block;
+                    clear: both;
+                }
+                .erji{
+                    width: 204px;
+                    margin: 0;
+                    float: left;
+                    .erji-list{
+                        float: left;
+                        margin-bottom: 24px;
+                        a{
+                            display: block;
+                            width: 204px;
+                            height: 80px;
+                            font-size: 14px;
+                            border-radius: 10px;
+                            margin-right: 0;
+                            img{
+                                width: 56px;
+                                height: 56px;
+                                float: left;
+                                margin: 12px 8px 0 6px;
+                            }
+                            span{
+                                float: left;
+                                color: #777;
+                                font-size: 13px;
+                                margin-top: 30px;
+                                width: 120px;
+                                overflow: hidden;
+                                text-overflow: ellipsis;
+                                white-space: nowrap;
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
     }

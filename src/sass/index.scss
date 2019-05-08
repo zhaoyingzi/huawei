@@ -1,43 +1,10 @@
 @charset "utf-8";
 
-html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, 
-pre, code, form, fieldset, legend, input, textarea, p, blockquote, 
-th, td, hr, button, article, aside, details, figcaption, figure, footer, 
-header, hgroup, menu, nav, section{margin:0;padding: 0}
-a{
-    cursor: pointer;
-    text-decoration: none;
-    color: #3a3a3a;
-}
-body, button, input, select, textarea {
-    font: 12px/1.5 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
-}
-ol, ul {
-    list-style: none;
-}
-.hr-1, .hr-2, .hr-3, .hr-4, .hr-5, .hr-7, .hr-9, .hr-10, 
-.hr-15, .hr-18, .hr-20, .hr-22, .hr-25, .hr-30, .hr-32.hr-35, .hr-40, 
-.hr-45, .hr-50, .hr-55, .hr-60, .hr-65, .hr-70, .hr-75, .hr-80, .hr-85, .hr-90 {
-    clear: both;
-    font-size: 1px;
-    line-height: 1px;
-}
-.fl, .left, .left-area {
-    float: left;
-}
-.fr, .right, .right-area {
-    float: right;
-}
-fieldset, img, a img {
-    border: 0 none;
-}
-.relative{
-    position: relative;
-}
 @import "top";
 @import "header";
 @import "naver-main";
 @import "banner";
+@import "louti";
 @import "home-menu";
 @import "container";
 @import "bottom";

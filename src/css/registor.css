@@ -113,6 +113,10 @@
     font-size: 14px;
     color: #333;
     background: #fff;
+    display: none;
+}
+.main .wrapper .show{
+    display: block;
 }
 /* 用户名 等 格式统一*/
 .main .wrapper .log-details .input{
@@ -148,6 +152,9 @@
     background: transparent;
     line-height: 28px;
     font-size: 14px;
+}
+.main .wrapper .log-details .input lable{
+    color: red;
 }
 /* 注册按钮 */
 .main .wrapper .log-details .btn{

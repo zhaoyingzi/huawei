@@ -1,0 +1,26 @@
+@charset "utf-8";
+.louti{
+    top: 100px;
+    display: block;
+    position: fixed;
+    z-index: 10;
+    right: 5px;
+    width: 100px;
+    transition: all .5s ease;
+    ul{
+        li{
+            text-align: right;
+            padding-right: 7px;
+            line-height: 18px;
+            position: relative;
+            display: block;
+            padding: 10px 12px 10px 0;
+            cursor: pointer;
+            width: 70px;
+            height: 32px;
+        }
+        .active{
+            border: 3px orange solid;
+        }
+    }
+}
